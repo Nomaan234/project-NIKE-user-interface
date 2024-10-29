@@ -1,0 +1,140 @@
+*
+{
+    margin:0%;
+    padding: 0%;
+     box-sizing:border-box ;
+     font-family:sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold' ;
+}
+
+.navbar
+{
+    height: 90px;
+    display: flex;
+    
+}
+    
+.logo img
+{
+    background-size: cover;
+    height: 90px;
+    margin-left: 55px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+.option ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 40px;
+    
+}
+.search
+{
+    display: flex;
+    margin-left: 650px;
+    align-items: center;
+    gap: 45px;
+}
+.content
+{
+    display: flex;
+}
+
+.left
+{
+    height: 90%;
+    width: 40%;
+    padding:  80px 100px;
+}
+.left h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #555;
+    margin-bottom: 20px;
+}
+.left h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.left p
+{
+    font-size: 20px;
+    color: #000;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+
+.btn
+{
+    
+    background-color: #000;
+    color: white;
+    border-radius: 50px;
+    border-top-left-radius:0% ;
+    border: none;
+    padding: 12px 40px;
+    font-weight: 600;
+
+}
+
+.right
+{
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.right::-webkit-scrollbar
+{
+    display: none;
+}
+.box1
+{
+height: 300px;
+width: 250px;
+background-color: rgba(10, 0, 10, 0.067);
+position: relative;
+display: inline-block;
+margin-right: 20px;
+}
+
+.box1 img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.box1 h4{
+    font-size: 18px;
+    position: absolute;
+    text-transform: capitalize;
+    bottom: 20%;
+}
+
+.catagory
+{
+    position: absolute;
+    bottom: 12%;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.price
+{
+    position: absolute;
+    bottom: 4%;
+    font-weight: 500; 
+    text-transform: capitalize;
+}
